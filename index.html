@@ -32,10 +32,11 @@
     </nav>
     <main>
         <div class="flex">
-        <div class="bg-white w-3/4 rounded-lg">
-        <div class="grid grid-cols-3">
+        <div class="bg-white w-3/4 rounded-lg p-4">
 
-            <div class="bg-slate-300 flex w-64 h-32 rounded-md   mt-2  pt-8 pl-4">
+
+           <div class="grid grid-cols-4 gap-4 ">
+             <div class="bg-slate-300 flex  h-32 rounded-md   my-4  pt-8 pl-4 col-span-1">
                 <div>
                     <img class="size-12 mr-4 mt-3 bg-white rounded-2xl px-3 py-3" src="./assets/checkbox.png" alt="">
                 </div>
@@ -44,17 +45,16 @@
                     <h1 class="font-bold text-2xl">05</h1>
                 </div>
             </div>
-            <div class="bg-red-600 flex w-[524px] h-32 rounded-md ml-6 mt-2 pt-8 pl-4">
-                <div>
-                    <img class="size-12 mr-4 mt-3 bg-white rounded-2xl px-3 py-3" src="./assets/calender.png" alt="">
-                </div>
-                <div>
-                    <h2 class="text-xl">Wed ,</h2>
-                    <h1 class="font-bold text-2xl">Jul 28 2025</h1>
-                </div>
-            </div>
+         
 
-            <div class="bg-slate-300 flex w-64 h-32 rounded-md ml-6 mt-2 pt-8 pl-4">
+            <!-- to-[#6C7FFA] -->
+            <div id="Discover-btn" class=" h-[128px] rounded-md my-4 ml-4  bg-gradient-to-r from-[#3752FD]  to-[#9BA8F8]
+             col-span-2 flex items-center ">
+                <img class="pl-2 " src="./assets/board.png" alt="">
+                <h1 class="text-white text-2xl ">Discover Something New Today!</h1>
+        </div>
+
+            <div class="bg-slate-300 flex  h-32 rounded-md ml-6 my-4 pt-8 pl-4 col-span-1">
                 <div>
                     <img class="size-12 mr-4 mt-3 bg-white rounded-2xl px-3 py-3" src="./assets/calender.png" alt="">
                 </div>
@@ -63,7 +63,12 @@
                     <h1 class="font-bold text-2xl">Jul 28 2025</h1>
                 </div>
             </div>
-        <div class="bg-slate-300 w-[342px] h-[287px]  mt-6 ml-6 rounded-md">
+            
+           </div>
+        <div class="grid grid-cols-3 gap-6">
+
+
+        <div class="bg-slate-300  rounded-md">
             <div>
                 <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">ShopEase</h1>
                 <h1 class="font-bold mx-4 my-3">Fix Mobile Button Issue </h1>
@@ -72,119 +77,119 @@
                         and ensure onClick works properly</p>
                 </div>
             </div>
-            <div class="mx-4 flex">
+            <div class="mx-4 flex pb-2">
                 <div >
                     <h3 class="mt-2 mb-1">Deadline</h3>
                     <h2 class="font-bold">21 March 2025</h2>
                 </div>
                 <div>
-                    <button class="bg-blue-600 px-4 py-3 rounded-md text-white mt-4 ml-8 ">Completed</button>
+                    <button id="box-1" class="bg-blue-600 px-4 py-3 rounded-md text-white mt-4 ml-8 ">Completed</button>
                 </div>
             </div>
         </div>
         
-        <div class="bg-slate-300  w-[342px] h-[287px] mx-2 mt-6 rounded-md">
+        <div class="bg-slate-300   rounded-md">
             <div>
-                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">ShopEase</h1>
-                <h1 class="font-bold mx-4 my-3">Fix Mobile Button Issue </h1>
+                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">CloudSync</h1>
+                <h1 class="font-bold mx-4 my-3">Add Dark Mode</h1>
                 <div>
-                    <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
+                    <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Store the user's preference in localStorage, update CSS
+                         variables dynamically, and apply a smooth transition effect.</p>
                 </div>
             </div>
-            <div class="mx-4 flex">
+            <div class="mx-4 flex  pb-2">
                 <div>
                     <h3 class="mt-2 mb-1">Deadline</h3>
                     <h2 class="font-bold">21 March 2025</h2>
                 </div>
                 <div>
-                    <button class="bg-blue-600 px-4 py-3 rounded-md text-white mt-4 ml-8 ">Completed</button>
+                    <button id="box-2" class="bg-blue-600 px-4 py-3 rounded-md text-white mt-4 ml-8 ">Completed</button>
                 </div>
             </div>
         </div>
-        <div class="bg-slate-300  w-[342px] h-[287px] mt-6  mr-6 rounded-md">
+        <div class="bg-slate-300   rounded-md">
             <div>
-                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">ShopEase</h1>
-                <h1 class="font-bold mx-4 my-3">Fix Mobile Button Issue </h1>
+                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">SwiftPay</h1>
+                <h1 class="font-bold mx-4 my-3">Optimize  Home page</h1>
                 <div>
                     <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
                 </div>
             </div>
-            <div class="mx-4 flex">
+            <div class="mx-4 flex  pb-2">
                 <div>
                     <h3 class="mt-2 mb-1">Deadline</h3>
                     <h2 class="font-bold">21 March 2025</h2>
                 </div>
                 <div>
-                    <button class="bg-blue-600 px-4 py-3 rounded-md text-white  mt-4 ml-8 ">Completed</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-slate-300 w-[342px] h-[287px] mt-6  ml-6 rounded-md">
-            <div>
-                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">ShopEase</h1>
-                <h1 class="font-bold mx-4 my-3">Fix Mobile Button Issue </h1>
-                <div>
-                    <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
-                        and ensure onClick works properly</p>
-                </div>
-            </div>
-            <div class="mx-4 flex">
-                <div>
-                    <h3 class="mt-2 mb-1">Deadline</h3>
-                    <h2 class="font-bold">21 March 2025</h2>
-                </div>
-                <div>
-                    <button class="bg-blue-600 px-4 py-3 rounded-md text-white  mt-4 ml-8 ">Completed</button>
+                    <button id="box-3" class="bg-blue-600 px-4 py-3 rounded-md text-white  mt-4 ml-8 ">Completed</button>
                 </div>
             </div>
         </div>
 
-        <div class="bg-slate-300 w-[342px] h-[287px] mt-6  mx-2 rounded-md">
+        <div class="bg-slate-300   rounded-md">
             <div>
-                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">ShopEase</h1>
-                <h1 class="font-bold mx-4 my-3">Fix Mobile Button Issue </h1>
+                <h1 class="px-4 py-2 bg-white w-20 mx-3 my-3 rounded-sm">Meta</h1>
+                <h1 class="font-bold mx-4 my-3">Add new emoji 🤲</h1>
                 <div>
                     <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
                 </div>
             </div>
-            <div class="mx-4 flex">
+            <div class="mx-4 flex  pb-2">
                 <div>
                     <h3 class="mt-2 mb-1">Deadline</h3>
                     <h2 class="font-bold">21 March 2025</h2>
                 </div>
                 <div>
-                    <button class="bg-blue-600 px-4 py-3 rounded-md text-white mt-4 ml-8 ">Completed</button>
+                    <button id="box-4" class="bg-blue-600 px-4 py-3 rounded-md text-white  mt-4 ml-8 ">Completed</button>
                 </div>
             </div>
         </div>
 
-        <div class="bg-slate-300 w-[342px] h-[287px] mt-6  mr-6 rounded-md">
+        <div class="bg-slate-300   rounded-md">
             <div>
-                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">ShopEase</h1>
-                <h1 class="font-bold mx-4 my-3">Fix Mobile Button Issue </h1>
+                <h1 class="px-5 py-2 bg-white w-32 mx-3 my-3 rounded-sm">Google LLC</h1>
+                <h1 class="font-bold mx-4 my-3">Integrate OpenAI API </h1>
                 <div>
                     <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
                 </div>
             </div>
-            <div class="mx-4 flex">
+            <div class="mx-4 flex  pb-2">
                 <div>
                     <h3 class="mt-2 mb-1">Deadline</h3>
                     <h2 class="font-bold">21 March 2025</h2>
                 </div>
                 <div>
-                    <button class="bg-blue-600 px-4 py-3 rounded-md text-white  mt-4 ml-8 ">Completed</button>
+                    <button id="box-5" class="bg-blue-600 px-4 py-3 rounded-md text-white mt-4 ml-8 ">Completed</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slate-300    rounded-md">
+            <div>
+                <h1 class="px-4 py-2 bg-white w-24 mx-3 my-3 rounded-sm">Glassdoar</h1>
+                <h1 class="font-bold mx-4 my-3">Improve Job searching</h1>
+                <div>
+                    <p class="bg-white w-[90%] h-24 rounded-sm mx-4 px-4">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        and ensure onClick works properly</p>
+                </div>
+            </div>
+            <div class="mx-4 flex  pb-2">
+                <div>
+                    <h3 class="mt-2 mb-1">Deadline</h3>
+                    <h2 class="font-bold">21 March 2025</h2>
+                </div>
+                <div>
+                    <button id="box-6" class="bg-blue-600 px-4 py-3 rounded-md text-white  mt-4 ml-8 ">Completed</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
      
-    <div  class="w-1/4 h-[830px] bg-white ml-6 rounded-md">
+    <div  class="w-1/4 h-[760px] bg-white ml-6 rounded-md">
         <div class="flex flex-col items-center mt-3">
             <div class="flex mb-2">
                 <img class="mt-2 mr-2" src="./assets/activity.png" alt="">
@@ -200,5 +205,7 @@
     </main>
 
  </div>
+ <script src="./script/discover.js"></script>
+ <script src="./script/box.js"></script>
 </body>
 </html>
