@@ -3,12 +3,12 @@
 //     function (event)
 // ))
 // box-1
-    document.getElementById("box-1-title").innerText;
-  const title1 = document.getElementById("history-part")  
-  const p = document.createElement("p");
+//     document.getElementById("box-1-title").innerText;
+//   const title1 = document.getElementById("history-part")  
+//   const p = document.createElement("p");
   
-  p.innerText= "You have Complete The Task Add Dark Mode at 12:48:15 PM"
-  title1.appendChild(p) 
+//   p.innerText= "You have Complete The Task Add Dark Mode at 12:48:15 PM"
+//   title1.appendChild(p) 
 
 //   box-2
 // document.getElementById("box-2-title").innerText;
